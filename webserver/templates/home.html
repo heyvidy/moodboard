@@ -1,0 +1,51 @@
+<html>
+
+<head>
+    <title>Mood Board</title>
+    <link rel="stylesheet" href="https://bootswatch.com/4/cosmo/bootstrap.min.css">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <br>
+        <br>
+        <div class="row">
+
+
+            <div class="col-md-6">
+                <select class="form-control" id="umood">
+
+                </select>
+            </div>
+            <div class="col-md-6">
+                <select class="form-control" id="uaction">
+
+                </select>
+            </div>
+            <br><br>
+            <div class="col-md-12">
+                <textarea class="form-control" id="unote" cols="30" rows="3"></textarea>
+                <button id="submit" class="btn btn-md btn-warning">Save Log</button>
+            </div>
+
+        </div>
+
+
+        <br><br><br>
+
+        <h3>Mood Log</h3>
+        <hr>
+        <div id="moodlog">
+
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous">
+        </script>
+
+    <script src="/static/index.js"></script>
+</body>
+
+</html>
