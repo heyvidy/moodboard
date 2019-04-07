@@ -13,7 +13,7 @@ The project is constructed into two Django Apps
 
 To get started with the project:
 ```
-$ 
+$ git clone https://github.com/justvidyadhar/moodboard.git
 ```
 
 To install all dependencies, **create a new virutalenv** with your preferred plugin and do
